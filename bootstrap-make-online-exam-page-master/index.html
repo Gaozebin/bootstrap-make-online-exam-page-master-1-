@@ -10,133 +10,142 @@
 
     </head>
 
-    <body>
-
-        <!--write your code here-->
-
-        <!-- Button trigger modal -->
-
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
-
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-
-  <div class="modal-dialog" role="document">
-
-    <div class="modal-content">
-
-      <div class="modal-header">
-
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-<span aria-hidden="true">&times;</span>
-</button>
-<h1>Í³Ò»½¨Ä£ÓïÑÔÀíÂÛ²âÊÔ</h1>
-<pre>¿¼ÊÔ¿ÆÄ¿£ºÍ³Ò»½¨Ä£ÓïÑÔ        Ê±¼ä£º100·ÖÖÓ             µÃ·Ö£º100</pre>
+   <body>
+<h1>ç»Ÿä¸€å»ºæ¨¡è¯­è¨€ç†è®ºæµ‹è¯•</h1>
+<pre>è€ƒè¯•ç§‘ç›®ï¼šç»Ÿä¸€å»ºæ¨¡è¯­è¨€        æ—¶é—´ï¼š100åˆ†é’Ÿ             å¾—åˆ†ï¼š100</pre>
 <form action="/demo/demo_form.asp">
-°à¼¶£º
+ç­çº§ï¼š
 <input type="text" name="class" />
-Ñ§ºÅ£º<input type="text" name="number" />
-ÐÕÃû£º<input type="text" name="name" />
-</form>
-<h2>Ò»¡¢Ìî¿ÕÌâ£¨Ã¿¿Õ5·Ö£¬¹²20·Ö£©</h2>
-<form action="/demo/demo_form.asp">
-1.UMLµÄÖÐÎÄÈ«³ÆÊÇ£º
-<input type="text" name="class" /><br />
-2.¶ÔÏó×îÍ»³öµÄÌØÕ÷ÊÇ£º<input type="text" name="number" /> <input type="text" name="name" /> <input type="text" name="name" />
-</form>
-<h2>¶þ¡¢Ñ¡ÔñÌâ£¨Ã¿Ìâ10·Ö£¬¹²20·Ö£©</h2>
-<form>
-<label for="male"></label>
-<input type="radio" name="sex" id="male" />
-£¨A£©UML¾ÍÊÇÈí¼þ¹¤³Ì<br />
-<label for="female"></label>
-<input type="radio" name="select" id="male" />
-£¨B£©UML²ÎÓëµ½Èí¼þ¹¤³ÌÖÐÈí¼þ¿ª·¢¹ý³ÌµÄ¼¸¸ö½×¶Î<br />
-<label for="male"></label>
-<input type="radio" name="sex" id="male" />
-£¨C£©UMLÓëÈí¼þ¹¤³ÌÎÞ¹Ø<br />
-<label for="male"></label>
-<input type="radio" name="sex" id="male" />
-£¨D£©UMLÊÇÈí¼þ¹¤³ÌµÄÒ»²¿·Ö<br />
-</form>
-<p>1.UMLÓëÈí¼þ¹¤³ÌµÄ¹ØÏµ</p>
-<form>
-<label for="male"></label>
-<input type="radio" name="sex" id="male" />
-£¨A£©UML¾ÍÊÇÈí¼þ¹¤³Ì<br />
-<label for="female"></label>
-<input type="radio" name="select" id="male" />
-£¨B£©UML²ÎÓëµ½Èí¼þ¹¤³ÌÖÐÈí¼þ¿ª·¢¹ý³ÌµÄ¼¸¸ö½×¶Î<br />
-<label for="male"></label>
-<input type="radio" name="sex" id="male" />
-£¨C£©UMLÓëÈí¼þ¹¤³ÌÎÞ¹Ø<br />
-<label for="male"></label>
-<input type="radio" name="sex" id="male" />
-£¨D£©UMLÊÇÈí¼þ¹¤³ÌµÄÒ»²¿·Ö<br />
-</form>
-<h2>Èý¡¢¶àÔñÌâ£¨Ã¿Ìâ10·Ö£¬¹²20·Ö£©</h2>
-<p>1.ÓÃÀýµÄÁ£¶È·ÖÎªÒÔÏÂÄÄÈýÖÖ£º</p>
-<form action="select"method="get">
-<label><input name="Fruit" type="checkbox" value=""/>£¨A£©¸ÅÊö¼¶<br /></label>
-<label><input name="Fruit" type="checkbox" value=""/>£¨B£©ÐèÇó¼¶<br /></label>
-<label><input name="Fruit" type="checkbox" value=""/>£¨C£©ÓÃ»§Ä¿±ê¼¶<br /></label>
-<label><input name="Fruit" type="checkbox" value=""/>£¨D£©×Ó¹¦ÄÜ¼¶<br /></label>
-</form>
-<p>2.ÀàÍ¼ÓÉÒÔÏÂÄÄÈý²¿·Ö×é³É£º</p>
-<form action="select"method="get">
-<label><input name="Fruit" type="checkbox" value=""/>£¨A£©Ãû³Æ£¨Name£©<br /></label>
-<label><input name="Fruit" type="checkbox" value=""/>£¨B£©ÊôÐÔ£¨Attribute£©<br /></label>
-<label><input name="Fruit" type="checkbox" value=""/>£¨C£©ÓÃ»§Ä¿±ê¼¶£¨Operation£©<br /></label>
-<label><input name="Fruit" type="checkbox" value=""/>£¨D£©×Ó¹¦ÄÜ¼¶£¨Function£©<br /></label>
-</form>
-<h2>ËÄ¡¢ÅÐ¶ÏÌâ£¨Ã¿Ìâ10·Ö£¬¹²20·Ö£©</h2>
-<form>
-1.ÓÃÀýÍ¼Ö»ÊÇÓÃÓÚºÍ¿Í»§½»Á÷ºÍ¹µÍ¨µÄ£¬ÓÃÓÚÈ·¶¨ÒªÇó¡£
-<label for="male"></label>
-<input type="radio" name="sex" id="male" />&radic;
-<label for="female"></label>
-<input type="radio" name="select" id="male" />X
-</form>
-<form>
-2.ÔÚ×´Ì¬Í¾ÖÐ£¬ÖÕÖ¹×´Ì¬ÔÚÒ»¸ö×´Ì¬Í¼ÖÐÔÊÐíÓÐÈÎÒâ¶à¸ö¡£
-<label for="male"></label>
-<input type="radio" name="sex" id="male" />&radic;
-<label for="female"></label>
-<input type="radio" name="select" id="male" />X
-</form>
-<h2>Îå¡¢¼ò´ðÌâ£¨Ã¿Ìâ10·Ö£¬¹²20·Ö£©</h2>
-<p>1.¼òÊöÊ²Ã´ÊÇÄ£ÐÍÒÔ¼°Ä£ÐÍµÄ±íÏÖÐÎÊ½£¿</p>
-<form action="" method="get">
-<label></label>
-<textarea name="DIVCSS5" cols="70" rows="10">
-	Ä£ÐÍÊÇ¶ÔÏÖÊµÊÀ½çµÄ¼ò»¯ºÍ³éÏó£¬Ä£ÐÍÊÇ¶ÔËùÑÐ¾¿µÄÏµÍ³¡¢¹ý³Ì¡¢ÊÂÎï»ò¸ÅÄîµÄÒ»ÖÖ±í´ïÐÎÊ½¡£¿ÉÒÔÊÇÎïÀíÊµÌå£»¿ÉÒÔÊÇÄ³ÖÖÍ¼ÐÎ£»»òÕßÊÇÒ»ÖÖÊýÑ§±í´ïÊ½¡£
-</textarea>
-</form>
-<button type="button">¼ÆËã·ÖÊý</button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+å­¦å·ï¼š<input type="text" name="number" />
+å§“åï¼š<input type="text" name="name" />
 
-      </div>
+	<h2>ä¸€ã€å¡«ç©ºé¢˜ï¼ˆæ¯ç©º5åˆ†ï¼Œå…±20åˆ†ï¼‰</h2>
 
-      <div class="modal-body">You're ready to go!
-      </div>
+		1.UMLçš„ä¸­æ–‡å…¨ç§°æ˜¯ï¼š
+			<input type="text" name="class" /><br />
+		2.å¯¹è±¡æœ€çªå‡ºçš„ç‰¹å¾æ˜¯ï¼š<input type="text" name="number" /> <input type="text" name="name" /> <input type="text" name="name" />
+<div class="div_bor">
+	<h2>äºŒã€é€‰æ‹©é¢˜ï¼ˆæ¯é¢˜10åˆ†ï¼Œå…±20åˆ†ï¼‰</h2>
+		<p>1.UMLä¸Žè½¯ä»¶å·¥ç¨‹çš„å…³ç³»æ˜¯:</p>
+		<label for="male"></label>
+			<input type="radio" name="sex" Id="a" value="A" />
+				ï¼ˆAï¼‰UMLå°±æ˜¯è½¯ä»¶å·¥ç¨‹<br />
+		<label for="male"></label>
+			<input type="radio" name="sex" Id="a" value="B" />
+				ï¼ˆBï¼‰UMLå‚ä¸Žåˆ°è½¯ä»¶å·¥ç¨‹ä¸­è½¯ä»¶å¼€å‘è¿‡ç¨‹çš„å‡ ä¸ªé˜¶æ®µ<br />
+		<label for="male"></label>
+			<input type="radio" name="sex" Id="a" value="C" />
+				ï¼ˆCï¼‰UMLä¸Žè½¯ä»¶å·¥ç¨‹æ— å…³<br />
+		<label for="male"></label>
+			<input type="radio" name="sex" Id="a" value="D" />
+				ï¼ˆDï¼‰UMLæ˜¯è½¯ä»¶å·¥ç¨‹çš„ä¸€éƒ¨åˆ†<br />
 
-      <div class="modal-footer">
+		<p>2.Javaè¯­è¨€æ”¯æŒ:</p>
 
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
-        <button type="button" class="btn btn-primary">Save changes</button>
-
-      </div>
-
-    </div>
-
-  </div>
-
+		<label for="male"></label>
+			<input type="radio" name="select" Id="a" value="A" />
+				ï¼ˆAï¼‰å•ç»§æ‰¿<br />
+		<label for="male"></label>
+			<input type="radio" name="select" Id="a" value="B" />
+				ï¼ˆBï¼‰å¤šç»§æ‰¿<br />
+		<label for="male"></label>
+			<input type="radio" name="select" Id="a" value="C" />
+				ï¼ˆCï¼‰å•ç»§æ‰¿å’Œå¤šç»§æ‰¿éƒ½æ”¯æŒ<br />
+		<label for="male"></label>
+			<input type="radio" name="select" Id="a" value="D" />
+				ï¼ˆDï¼‰å•ç»§æ‰¿å’Œå¤šç»§æ‰¿éƒ½ä¸æ”¯æŒ<br />
 </div>
+<script>
+    var rule2 = ['B','A'];//ç­”æ¡ˆ
+    var boxs2 = document.getElementsById('a');
+    var check2 = [];
+    var score2 = 0;
+    function fn(){
+        check2=[];
+        score2 = 0;
+        for(var i=0;i<boxs2.length;i++){
+            if(boxs2[i].checked){
+                check.push(boxs2[i].value);
+            }
+        }
+ 
+        for(var j=0;j<check.length;j++){
+            if(rule2.indexOf(check[j]) !=-1){
+                score2++;
+            }else{
+                score2--;
+            }
+        }
+        alert(Math.ceil(20/rule2.length*score)+'åˆ†'); // åˆ†æ•°è§„åˆ™,è‡ªå·±å®šå§
+    }
+ 
+</script>
+<div class="div_bor">
+	<h2>ä¸‰ã€å¤šæ‹©é¢˜ï¼ˆæ¯é¢˜10åˆ†ï¼Œå…±20åˆ†ï¼‰</h2>
+		<p>1.ç”¨ä¾‹çš„ç²’åº¦åˆ†ä¸ºä»¥ä¸‹å“ªä¸‰ç§ï¼š</p>
 
-    </body>
+		<label><input type="checkbox" value="A"/>ï¼ˆAï¼‰æ¦‚è¿°çº§<br /></label>
+		<label><input type="checkbox" value="B"/>ï¼ˆBï¼‰éœ€æ±‚çº§<br /></label>
+		<label><input type="checkbox" value="C"/>ï¼ˆCï¼‰ç”¨æˆ·ç›®æ ‡çº§<br /></label>
+		<label><input type="checkbox" value="D"/>ï¼ˆDï¼‰å­åŠŸèƒ½çº§<br /></label>
+
+		<p>2.ç±»å›¾ç”±ä»¥ä¸‹å“ªä¸‰éƒ¨åˆ†ç»„æˆï¼š</p>
+
+		<label><input type="checkbox" value="A"/>ï¼ˆAï¼‰åç§°ï¼ˆNameï¼‰<br /></label>	
+		<label><input type="checkbox" value="B"/>ï¼ˆBï¼‰å±žæ€§ï¼ˆAttributeï¼‰<br /></label>
+		<label><input type="checkbox" value="C"/>ï¼ˆCï¼‰ç”¨æˆ·ç›®æ ‡çº§ï¼ˆOperationï¼‰<br /></label>
+		<label><input type="checkbox" value="D"/>ï¼ˆDï¼‰å­åŠŸèƒ½çº§ï¼ˆFunctionï¼‰<br /></label>
+ </div>
+ <script>
+    var rule = ['A','B','D','A','B','C'];//ç­”æ¡ˆ
+    var boxs = document.getElementsByTagName('input');
+    var check = [];
+    var score = 0;
+    function fn(){
+        check=[];
+        score = 0;
+        for(var i=0;i<boxs.length;i++){
+            if(boxs[i].checked){
+                check.push(boxs[i].value);
+            }
+        }
+ 
+        for(var j=0;j<check.length;j++){
+            if(rule.indexOf(check[j]) !=-1){
+                score++;
+            }else{
+                score--;
+            }
+        }
+        alert(Math.ceil(20/rule.length*score)+'åˆ†'); 
+    }
+ 
+</script>
+
+	<h2>å››ã€åˆ¤æ–­é¢˜ï¼ˆæ¯é¢˜10åˆ†ï¼Œå…±20åˆ†ï¼‰</h2>
+
+		1.ç”¨ä¾‹å›¾åªæ˜¯ç”¨äºŽå’Œå®¢æˆ·äº¤æµå’Œæ²Ÿé€šçš„ï¼Œç”¨äºŽç¡®å®šè¦æ±‚ã€‚
+		<label for="male"></label>
+			<input type="radio" name="sex" id="male" />&radic;
+		<label for="female"></label>
+			<input type="radio" name="select" id="male" />X<br />
+
+		2.åœ¨çŠ¶æ€é€”ä¸­ï¼Œç»ˆæ­¢çŠ¶æ€åœ¨ä¸€ä¸ªçŠ¶æ€å›¾ä¸­å…è®¸æœ‰ä»»æ„å¤šä¸ªã€‚
+		<label for="male"></label>
+			<input type="radio" name="sex" id="male" />&radic;
+		<label for="female"></label>
+			<input type="radio" name="select" id="male" />X
+
+	<h2>äº”ã€ç®€ç­”é¢˜ï¼ˆæ¯é¢˜10åˆ†ï¼Œå…±20åˆ†ï¼‰</h2>
+		<p>1.ç®€è¿°ä»€ä¹ˆæ˜¯æ¨¡åž‹ä»¥åŠæ¨¡åž‹çš„è¡¨çŽ°å½¢å¼ï¼Ÿ</p>
+
+		<label></label>
+		<textarea name="DIVCSS5" cols="70" rows="10">
+	æ¨¡åž‹æ˜¯å¯¹çŽ°å®žä¸–ç•Œçš„ç®€åŒ–å’ŒæŠ½è±¡ï¼Œæ¨¡åž‹æ˜¯å¯¹æ‰€ç ”ç©¶çš„ç³»ç»Ÿã€è¿‡ç¨‹ã€äº‹ç‰©æˆ–æ¦‚å¿µçš„ä¸€ç§è¡¨è¾¾å½¢å¼ã€‚å¯ä»¥æ˜¯ç‰©ç†å®žä½“ï¼›å¯ä»¥æ˜¯æŸç§å›¾å½¢ï¼›æˆ–è€…æ˜¯ä¸€ç§æ•°å­¦è¡¨è¾¾å¼ã€‚
+	</textarea>
+	</form>
+		<p><button type="float:right" onclick="fn()">è®¡ç®—åˆ†æ•°</button></p>
+	
+	</body>
 
 </html>
